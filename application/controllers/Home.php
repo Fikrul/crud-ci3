@@ -132,5 +132,12 @@ class Home extends CI_Controller
 
 		$this->form_validation->set_rules($config);
 	}
+
+	/*public function regist()
+	{
+		$this->load->view('templates/header', $data);
+		$this->load->view('register');
+		$this->load->view('templates/footer');
+	}*/
 }
 ?>
